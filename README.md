@@ -6,4 +6,5 @@ check func.php
 to view the insert IDs of each carrier
 also remove the according Class from schemas and Tygh
 
-This needs to be done when adding custom ADDONS for creations
+This needs to be done when adding custom ADDONS for specific carriers like extended ACS Addon
+that prints vouchers
