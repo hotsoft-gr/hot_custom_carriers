@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<addon scheme="2.0">
+    <id>hot_custom_carriers</id>
+    <name>hot_custom_carriers</name>
+    <version>1.0</version>
+	<priority>2300</priority>
+	<position>120</position>
+	<status>active</status>
+	<default_language>en</default_language>
+	<auto_install>MULTIVENDOR,ULTIMATE</auto_install>    
+    <queries>        
+        <item for="install">INSERT INTO ?:shipping_services (`status`, `module`, `code`, `sp_file`) VALUES ('A', 'acs', 'acs_hot', '');</item>
+        <item for="install">INSERT INTO ?:shipping_services (`status`, `module`, `code`, `sp_file`) VALUES ('A', 'speedex', 'speedex_hot', '');</item>        
+        <item for="install">INSERT INTO ?:shipping_services (`status`, `module`, `code`, `sp_file`) VALUES ('A', 'gt', 'gt_hot', '');</item>
+        <item for="install">INSERT INTO ?:shipping_services (`status`, `module`, `code`, `sp_file`) VALUES ('A', 'elta', 'elt_hot', '');</item>
+    </queries>
+    <functions>
+        <item for="install">fn_hot_custom_carriers_install</item>
+		<item for="uninstall">fn_hot_custom_carriers_uninstall</item>
+    </functions>    
+</addon>
