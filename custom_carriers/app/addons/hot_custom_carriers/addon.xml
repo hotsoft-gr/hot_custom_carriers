@@ -3,6 +3,7 @@
     <id>hot_custom_carriers</id>
     <name>hot_custom_carriers</name>
     <version>1.0</version>
+	<supplier>HOTSoft.gr</supplier>
 	<priority>2300</priority>
 	<position>120</position>
 	<status>active</status>
