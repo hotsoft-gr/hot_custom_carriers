@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /release-4.14.2/addons/hot_custom_carriers.po\n"
+"X-Crowdin-File-ID: 5847\n"
+"PO-Revision-Date: 2022-01-20 08:19\n"
+
+msgctxt "Addons::name::hot_custom_carriers"
+msgid "Carriers for Greek Market"
+msgstr "Μεταφορικές εταιρείες ελληνικής αγοράς"
+
+msgctxt "Addons::description::hot_custom_carriers"
+msgid "Adds ACS.Speedex,γΤ,ELTA to shipments and trackAndTrace for orders"
+msgstr "Adds ACS.Speedex,γΤ,ELTA to shipments and trackAndTrace for orders"
+
+msgctxt "Languages::acs"
+msgid "ACS"
+msgstr "ACS"
+
+msgctxt "Languages::carrier_acs"
+msgid "ACS"
+msgstr "ACS"
+
+msgctxt "Languages::gt"
+msgid "GT"
+msgstr "GT"
+
+msgctxt "Languages::carrier_gt"
+msgid "GT"
+msgstr "GT"
+
+msgctxt "Languages::speedex"
+msgid "Speedex"
+msgstr "Speedex"
+
+msgctxt "Languages::carrier_speedex"
+msgid "Speedex"
+msgstr "Speedex"
+
+msgctxt "Languages::elta"
+msgid "ELTA"
+msgstr "ELTA"
+
+msgctxt "Languages::carrier_elta"
+msgid "ELTA"
+msgstr "ELTA"
